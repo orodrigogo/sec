@@ -1,0 +1,60 @@
+#aside-main {
+  width:  350px;
+  height: 100vh;
+
+  padding: 100px 30px;
+  position: fixed;
+
+  z-index: 1;
+  
+
+  background-color: whitesmoke;
+}
+
+#aside-main > #legend {
+  width: 100%;  
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+#aside-main > #legend > p{
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#aside-main > #legend > div {
+  display: flex;
+  align-items: center;
+}
+
+#aside-main > #legend > div span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.legend-error{
+  width: 30px;
+  height: 30px;
+  background: #F23005;
+  border-radius: 3px;
+  margin: 3px 0;
+}
+
+.legend-info{
+  width: 30px;
+  height: 30px;
+  background: #266DD3;
+  border-radius: 3px;
+  margin: 3px 0;
+}
+
+.legend-warning{
+  width: 30px;
+  height: 30px;
+  background: #D98E04;
+  border-radius: 3px;
+  margin: 3px 0;
+}
